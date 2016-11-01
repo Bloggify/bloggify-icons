@@ -1,0 +1,41 @@
+{
+  "name": "bloggify-icons",
+  "version": "1.0.0",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "SEE IN LICENSE",
+  "dependencies": {
+    "ajs": "^1.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloggify/bloggify-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bloggify/bloggify-icons/issues"
+  },
+  "homepage": "https://github.com/Bloggify/bloggify-icons#readme",
+  "description": "",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "build/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ],
+  "blah": {
+    "generateLicense": false,
+    "show_installation": false,
+    "show_license": false
+  }
+}

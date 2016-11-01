@@ -1,0 +1,132 @@
+@import url('https://cdn.rawgit.com/IonicaBizau/bag.css/gh-pages/dist/bag.fixed.css');
+@import url('lib/bloggify-icons.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/gridly/1.4.5/prefixed/gridly.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+hr:after {
+    content: "\e900";
+    font-family: 'icomoon';
+    position: relative;
+    top: -29px;
+    padding: 0 10px;
+    background: #ffffff;
+    color: #8c8b8b;
+    font-size: 3em;
+}
+
+hr {
+    border: none;
+    border-top: 4px double #f1f1f1;
+    text-align: center;
+    max-width: 400px;
+}.icon-info {
+    width: 100%;
+    overflow: auto;
+}
+
+pre.bordered {
+    margin: 15px;
+}
+
+pre.bordered, .icon-box {
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid rgba(226, 226, 226, 0.36);
+    text-align: center;
+    box-shadow: 0 6px 31px rgba(171, 171, 171, 0.21);
+}
+
+.col.icon-box-wrapper {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.icon-content {
+    font-size: 55px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+pre {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+@media (min-width: 48em) {
+    .col-third {
+        width: 33.33%;
+    }
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(41, 41, 41, 0.1);
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(41, 41, 41, 0.2);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(41, 41, 41, 0.2);
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.mg-t {
+    margin-top: 50px;
+}
+
+.mg-b {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #c25b00;
+}
+
+.btn {
+    color: #444;
+    border: 1px solid #eaeaea;
+    padding: 15px 80px;
+    display: inline-block;
+    background: #fcfcfc;
+    box-shadow: 0 6px 31px rgba(171, 171, 171, 0.21);
+    text-decoration: none;
+    margin: 20px;
+}
+
+pre.bordered, .icon-box, .btn {
+    transition: box-shadow 300ms ease;
+}
+
+pre.bordered:hover, .icon-box:hover, .btn:hover {
+    box-shadow: 0 6px 31px rgba(171, 171, 171, 0.5);
+}

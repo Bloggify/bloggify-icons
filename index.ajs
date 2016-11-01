@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bloggify Icons</title>
+    </head>
+    <body>
+        <div class="bag fixed">
+            <h1 class="title"><span class="icon-bloggify-logo"></span> Icons</h1>
+            <div class="center">
+                <p class="center mg-b">The Bloggify icon font for the web.</p>
+                <a class="center btn btn-download" href="https://github.com/Bloggify/bloggify-icons/archive/master.zip">Download</a><br>
+            </div>
+            <pre class="bordered">&lt;!-- Include the icons --&gt;
+&lt;link href="path/to/bloggify-icons.css" rel="stylesheet"&gt;
+
+&lt;!-- Then you can use the icons --&gt;
+&lt;span class="icon-bloggify-logo"&gt;&lt;/span&gt;</pre>
+            <div class="icons row">
+                <% icons.forEach(function (c) { %>
+                    <div class="col col-third icon-box-wrapper">
+                        <div class="icon-box">
+                            <div class="icon-content">
+                                <span class="icon-<%= c.properties.name %>"></span>
+                            </div>
+                            <div class="icon-info">
+                                <h2><%= c.properties.name %></h2>
+                                <pre>&lt;span class="icon-<%= c.properties.name %>"&gt;&lt;/span&gt;</pre>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+            <hr class="mg-t mg-b">
+            <div class="center">
+                <a href="https://bloggify.org/logos">Learn about the usage</a> |
+                <a href="https://bloggify.org/">Visit Bloggify.org</a>
+            </div>
+        </div>
+    </body>
+</html>
