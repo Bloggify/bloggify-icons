@@ -19,7 +19,7 @@
     "url": "https://github.com/Bloggify/bloggify-icons/issues"
   },
   "homepage": "https://github.com/Bloggify/bloggify-icons#readme",
-  "description": "",
+  "description": "The Bloggify icons for the web.",
   "files": [
     "bin/",
     "app/",
