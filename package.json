@@ -36,6 +36,8 @@
   "blah": {
     "generateLicense": false,
     "show_installation": false,
-    "show_license": false
+    "show_license": false,
+    "ex_img": "http://i.imgur.com/cXZFDWb.png",
+    "ex_url": "http://icons.bloggify.org/"
   }
 }
