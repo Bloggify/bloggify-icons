@@ -5,6 +5,8 @@
 
 > The Bloggify icons for the web.
 
+[![bloggify-icons](http://i.imgur.com/cXZFDWb.png)](http://icons.bloggify.org/)
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
